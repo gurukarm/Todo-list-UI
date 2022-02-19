@@ -1,0 +1,318 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.upper-container{
+    width: 40%;
+    height: 50%;
+    margin: 50px auto;
+ position: relative;
+ 
+}
+.upper-container1{
+width: 35%;
+height: 80%;
+padding-top: 20px;
+}
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#lists{
+    font-size: 2.5rem;
+    margin-left: 0px;
+    opacity: 0.5;
+    text-align: center;
+}
+.upper-container2{
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px ;
+    right: 0px;
+
+}
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top:0;
+    right: 0;
+    font-size: 2.5rem;
+    opacity: 0.5;
+  padding-top: 25px;
+ margin-left: 90px;
+
+}
+.card-container{
+    display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row;
+    margin-top:50px;
+    margin-bottom: 0;
+}
+.card1{
+      
+    width: 12%;
+    height:50vh;
+    margin-top:15px ;
+     border: 1.5px solid green;
+     border-radius: 8px;
+     position:relative;
+     box-shadow: 2px 2px 4px gray;
+    margin-right:20px;
+    margin-left:400px;  
+    text-align: center;    
+   
+ 
+}
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: brown;
+    border-bottom: 1px solid gray;
+    justify-content: space-around;
+}
+.div2{
+    width: 90%;
+    height:10%;
+    font-size:20px;
+    color: deepskyblue;
+    text-align:right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 52%;
+    text-align: center;
+    font-size: 20px;
+}
+#check{
+width: 20px;
+height: 20px;
+  margin-left: 10px;
+}
+
+.card2{
+
+    width: 12%;
+    height:50vh;
+    margin-top:15px ;
+     border: 1.5px solid green;
+     border-radius: 8px;
+     position:relative;
+     box-shadow: 2px 2px 4px gray;
+  margin-left: 20px;
+margin-right: 20px;
+ }
+ .div4{ position: absolute;
+     top:15px;
+     right: 0;
+     font-size:25px;
+  width: 85%;
+ text-align: left;
+ position: absolute;
+ height: 15%;
+ color: brown;
+ border-bottom:1px solid gray;
+ justify-content: right;
+ }
+ 
+ .div5{
+     width: 90%;
+     height:10%;
+     font-size:20px;
+     color: deepskyblue;
+     text-align: right;
+     position: absolute;
+     top: 35%;
+     font-weight: bold;
+     text-decoration: line-through;
+ }
+ .div6{
+     width: 90%;
+     height: 10%;
+     position: absolute;
+     top: 52%;
+     text-align: left;
+     font-size: 20px;
+ }
+ #check{
+ width: 20px;
+ height: 20px;
+   margin-left: 10px;
+ }
+ .card3{
+    width: 12%;
+    height:50vh;
+    margin-top:15px ;
+     border: 1.5px solid green;
+     border-radius: 8px;
+     position:relative;
+     box-shadow: 2px 2px 4px gray;
+margin-right:440px;
+margin-left:60px;
+ }
+ .div7{ position: absolute;
+     top:15px;
+     right: 0;
+     font-size:25px;
+  width: 85%;
+ text-align: left;
+ position: absolute;
+ height: 15%;
+ color: brown;
+ border-bottom:1px solid gray;
+ justify-content: right;
+ }
+ 
+ .div8{
+     width: 90%;
+     height:10%;
+     font-size:20px;
+     color: deepskyblue;
+     text-align: right;
+     position: absolute;
+     top: 35%;
+     font-weight: bold;
+     text-decoration: line-through;
+ }
+ .div9{
+     width: 90%;
+     height: 10%;
+     position: absolute;
+     top: 52%;
+     text-align: left;
+     font-size: 20px;
+ }
+ #check{
+ width: 20px;
+ height: 20px;
+   margin-left: 10px;
+   opacity:0.5 ;
+ }
+ .left-arrow{
+     opacity:0.5;
+    margin-top: 5px;
+    margin-right: 45px;
+ }
+#home{
+    margin-top:0px;
+    margin-left:5.0px;
+    margin-right: 0px;
+    opacity: 0.5;
+}
+.right-arrow{
+    opacity:0.5;
+  margin-left:5.0px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+    #navbutton{
+        flex-direction: row;
+        border: 0px solid gray;
+        border-radius: 0px;
+        flex-wrap: wrap;
+        width: 215.6px;
+       height: 35px;
+        justify-content: space-around;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 50px;
+        margin-right: 400px;
+              margin-bottom: 0px;
+              
+    }
+
+#numeric{
+    opacity: 0.5;
+}
+#notshow{
+    filter: blur(6px);
+    -webkit-filter:blur(6px);
+}
+
+
+.pop-up{
+    position: absolute;
+    left:37%;
+    top:30%;
+    height: 35vh;
+    width: 27%;
+    border: 1.5px solid green;
+    border-radius: 10px;
+    color: green;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: white;
+  padding: 20px;
+
+}
+.add-new{
+    opacity: 0.7;
+     font-size: 25px;
+}
+.pop-upbar{
+                   margin-top: 10px;
+                   border-radius:5px;
+                   width: 85%;
+                   height: 10%;
+                   border: 1.5px solid gray;
+                   box-shadow: 1px 1px 1px ;
+}
+
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 18px;
+    margin-left: 30px;
+    color: white;
+    background-color: green;
+    border-radius: 25px;
+    border: none;
+    position: absolute;
+    left: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
